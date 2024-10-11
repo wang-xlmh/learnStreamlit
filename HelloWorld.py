@@ -25,8 +25,8 @@ def set_jpg_as_page_bg(jpg_file):
     return
 
 
-# 假设 'background.jpg' 是与你的 Streamlit 脚本在同一目录下的图片文件
-set_jpg_as_page_bg('background.jpg')
+# 假设 'background01.jpg' 是与你的 Streamlit 脚本在同一目录下的图片文件
+set_jpg_as_page_bg('static/image/background01.jpg')
 
 # 添加其他 Streamlit 代码来创建你的应用程序
 st.title('My Streamlit App with Background Image')
